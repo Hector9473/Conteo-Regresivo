@@ -8,7 +8,7 @@ st.set_page_config(page_title="Cuenta Regresiva", page_icon="⏰", layout="cente
 st.title("⏰ Mi Contador Regresivo")
 
 # Configura tu fecha objetivo aquí (Año, Mes, Día, Hora, Minuto, Segundo)
-fecha_objetivo = datetime(2026, 12, 31, 23, 59, 59)
+fecha_objetivo = datetime(2029, 12, 31, 23, 59, 59)
 
 # Contenedor para que el diseño no parpadee al actualizarse
 placeholder = st.empty()
